@@ -1,0 +1,6 @@
+C:\Users\Woods\Documents\GitHub\NEOHouston\database-app\WCF\NEORepositoryService\NEORepository\obj\Debug\NEORepository.csprojResolveAssemblyReference.cache
+C:\Users\Woods\Documents\GitHub\NEOHouston\database-app\WCF\NEORepositoryService\NEORepository\bin\Debug\NEORepository.dll.config
+C:\Users\Woods\Documents\GitHub\NEOHouston\database-app\WCF\NEORepositoryService\NEORepository\bin\Debug\NEORepository.dll
+C:\Users\Woods\Documents\GitHub\NEOHouston\database-app\WCF\NEORepositoryService\NEORepository\bin\Debug\NEORepository.pdb
+C:\Users\Woods\Documents\GitHub\NEOHouston\database-app\WCF\NEORepositoryService\NEORepository\obj\Debug\NEORepository.dll
+C:\Users\Woods\Documents\GitHub\NEOHouston\database-app\WCF\NEORepositoryService\NEORepository\obj\Debug\NEORepository.pdb

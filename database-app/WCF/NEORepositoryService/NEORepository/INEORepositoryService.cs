@@ -27,16 +27,16 @@ namespace NEORepository
         List<NearEarthObject> ListNearEarthObjects();
 
         [OperationContract]
-        public void AddUser(User user);
+        void AddUser(User user);
 
         [OperationContract]
-        public void AddObservation(Observation observation);
+        void AddObservation(Observation observation);
 
         [OperationContract]
-        public void AddObservatory(Observatory observatory);
+        void AddObservatory(Observatory observatory);
 
         [OperationContract]
-        public void AddObservationRelationship(ObservationRelationship observationRelationship);        
+        void AddObservationRelationship(ObservationRelationship observationRelationship);        
 
     }
 
@@ -89,16 +89,13 @@ namespace NEORepository
         private string _SecurityType;
         private string error = "_SecurityType has not been set";
 
-        [DataMember]
-        enum SecurityTypeEnum { Administrator, User };
+        public enum SecurityTypeEnum { Administrator, User };
 
-        [DataMember]
         public void SetSecurityType(SecurityTypeEnum elem)
         {
             _SecurityType = elem.ToString();
         }
 
-        [DataMember]
         public string GetSecurityType()
         {
             if (_SecurityType != null)
@@ -152,12 +149,10 @@ namespace NEORepository
         }
 
         [DataMember]
-        public string EditNotes 
+        public string EditNotes
         {
-            set 
-            {
-                _notes = value;
-            }
+            get;
+            set;
         }
 
         [DataMember]
@@ -198,7 +193,7 @@ namespace NEORepository
     public class NearEarthObject
     {
         [DataMember]
-        public int DesireabilityScore { get;}
+        public int DesireabilityScore { get; set; }
 
         [DataMember]
         public int NumberOfObservations { get; set; }
